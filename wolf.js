@@ -4,7 +4,7 @@ class Wolf extends Vehicle {
   // Constructeur : initialise le loup à une position donnée
   constructor(x, y) {
     super(x, y);
-    this.maxSpeed = 2.8;   // vitesse maximale du loup
+    this.maxSpeed = 3;   // vitesse maximale du loup
     this.maxForce = 0.35;  // force maximale de direction
     this.size = 46;        // taille utilisée pour collisions
   }
